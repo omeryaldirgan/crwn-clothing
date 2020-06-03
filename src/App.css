@@ -2,3 +2,10 @@ body{
   padding: 25px;
   font-family: 'Open Sans', sans-serif;
 }
+a{
+  text-decoration: none;
+}
+
+input{
+  box-sizing: border-box;
+}

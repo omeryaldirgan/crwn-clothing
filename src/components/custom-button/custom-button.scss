@@ -1,3 +1,8 @@
+.button-groups{
+display: flex;
+justify-content: space-between;
+
+
 .custom-button {
     min-width: 165px;
     width: auto;
@@ -19,4 +24,14 @@
       color: black;
       border: 1px solid black;
     }
+    &.google-button{
+      background-color: #4285f4;
+      color: #fff;
+
+      &:hover{
+        background-color: #357ae8;
+        border: none;
+      }
+    }
   }
+}
